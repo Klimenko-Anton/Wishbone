@@ -481,10 +481,9 @@ h4,
 .hero__body {
   position: relative;
   display: grid;
-  grid-template-columns: minmax(0.9375rem, 1fr) minmax(
-      0,
-      calc(76.875rem / 2)
-    ) minmax(0, calc(76.875rem / 2)) minmax(0.9375rem, 1fr);
+  grid-template-columns:
+    minmax(0.9375rem, 1fr) minmax(0, calc(76.875rem / 2))
+    minmax(0, calc(76.875rem / 2)) minmax(0.9375rem, 1fr);
 }
 .hero__content {
   position: relative;
